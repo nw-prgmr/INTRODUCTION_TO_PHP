@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Document</title>
 </head>
 
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="sneat-1.0.0/assets/vendor/fonts/boxicons.css">
+    <link rel="stylesheet" href="sneat-1.0.0/assets/vendor/css/theme-default.css" class="template-customizer-theme-css">
+    <link rel="stylesheet" href="sneat-1.0.0/assets/vendor/css/core.css" class="template-customizer-core-css">
+    <link rel="stylesheet" href="sneat-1.0.0/assets/css/demo.css">
+    <link rel="stylesheet" href="sneat-1.0.0/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css">
+    <script src="sneat-1.0.0/assets/vendor/js/helpers.js"></script>
+    <script src="sneat-1.0.0/assets/js/config.js"></script>
 
     <style>
         .header {
@@ -19,12 +24,12 @@
         
     <?php include('components/header.php'); ?>
 
-    <div class="pt-4 pb-4 mx-5 bg-light">
+    <div class="pt-4 pb-2 mx-5 bg-normal">
         <H4>BACKGROUND</H4>
         <ul>
             <li>Bachelor of Science in Computer Science</li>
             <li>Laguna University</li>
-        </ul>
+        </ul><br><br>
 
         <H4>SKILLS</H4>
         <ul id="skills">
@@ -32,7 +37,7 @@
             <li>JAVA</li>
             <li>PYTHON</li>
         </ul>
-        <button class="btn btn-primary" id="add-skill">Add Skill</button>
+        <button class="btn btn-secondary" id="add-skill">Add Skill</button>
 
         <!-- <div class="row mt-5">
             <div class="col-md-3 my-2">
